@@ -18,7 +18,7 @@ class Time {
 		//Output per indicare i valori attuali indicati nelle variabili hour, minute, second.
 		System.out.println("Hour(s): " + hour + ", Minute(s): " + minute + ", Second(s): " + second);
 		//Calcolo il numero di secondi dalla mezzanotte all'orario indicato dalle tre variabili hour, minute e second per essere più precisi.
-		System.out.println("Number of seconds since midnight: " + );
+		System.out.println("Number of seconds since midnight: " + since_midnight);
 		//Calcolo il numero di secondi rimanenti fino alla fine del giorno, quindi le 24, usando le variabili hour, minute e second.
 		System.out.println("Number of seconds remaining in the day: " + ((24 - hour) * 3600) + ((60-minute) * 60) + 60-second);
 		//Calcolo la percentuale del giorno che è passato rispetto all'orario prestabilito nelle variabili hour, minute e second.
