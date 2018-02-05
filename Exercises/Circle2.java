@@ -9,15 +9,10 @@ public class Circle2 {
 	public static void main(String[] args) {
 		
 		//Invoco il metodo creato successivamente per il calcolo del seno e coseno di un angolo
-		initCircle(100d, 100d);
+		initAngle();
 	}
 	
-	/**
-	 * 
-	 * @param width Larghezza del cerchio.
-	 * @param height Altezza del cerchio.
-	 */
-	private static void initCircle(double width, double height) {
+	private static void initAngle() {
 		//Gradi dell'angolo
 		double degrees = 90d;
 		/*
