@@ -11,7 +11,7 @@ public class Circle {
 	
 	public static void main(String[] args) {
 		
-		//Invoco il metodo creato successivamente per la creazione del 
+		//Invoco il metodo creato successivamente per la creazione del cerchio
 		initCircle(100d, 100d);
 	}
 	
